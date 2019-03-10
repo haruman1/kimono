@@ -1,5 +1,6 @@
 <?php
 set_time_limit(0);
+$token = "EAAAAKLSe4lIBANjBPgQ0UJ6ndDU0XTtZAjjRG7QrpR5uqUr3bZCfI9ZBNppwUxr2AE2F7ZAESjByeeNWIgHdktag4nPYXcoxQEON1lGaOs7n5Q6cZA65P00XtZBjHR5XC5yVXmFV06xhgQBne53hVuYi0WP7OzZAuPFuripaDPWBSzGAPGBiuPi";
 require_once('color.php');
 function friendlist($token){
 	$a = json_decode(file_get_contents('https://graph.facebook.com/me/friends?access_token='.$token), true);
@@ -29,7 +30,7 @@ function unfriend($id, $token){
 echo Console::blue("     Facebook Auto Unfriend\n");
 echo Console::blue("        Inactive Users\n\n");
 //INPUT
-echo "Facebook token EAAAAKLSe4lIBANjBPgQ0UJ6ndDU0XTtZAjjRG7QrpR5uqUr3bZCfI9ZBNppwUxr2AE2F7ZAESjByeeNWIgHdktag4nPYXcoxQEON1lGaOs7n5Q6cZA65P00XtZBjHR5XC5yVXmFV06xhgQBne53hVuYi0WP7OzZAuPFuripaDPWBSzGAPGBiuPi ";
+echo "Facebook token "
 $fbtoken = trim(fgets(STDIN));
 echo "Year : ";
 $year = trim(fgets(STDIN));
