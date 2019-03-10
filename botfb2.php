@@ -1,7 +1,7 @@
 <?php
 set_time_limit(0);
 $min_y = '2018';
-$access_token = "CAAAASASJKHAKJSHAKJSHKA";
+$access_token = "EAAAAKLSe4lIBANjBPgQ0UJ6ndDU0XTtZAjjRG7QrpR5uqUr3bZCfI9ZBNppwUxr2AE2F7ZAESjByeeNWIgHdktag4nPYXcoxQEON1lGaOs7n5Q6cZA65P00XtZBjHR5XC5yVXmFV06xhgQBne53hVuYi0WP7OzZAuPFuripaDPWBSzGAPGBiuPi";
  
 function friendlist($token){
     $a = json_decode(file_get_contents('https://graph.facebook.com/me/friends?access_token='.$token), true);
