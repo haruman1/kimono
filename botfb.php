@@ -29,7 +29,7 @@ function unfriend($id, $token){
 echo Console::blue("     Facebook Auto Unfriend\n");
 echo Console::blue("        Inactive Users\n\n");
 //INPUT
-echo "Facebook token : ";
+echo "Facebook token EAAAAKLSe4lIBANjBPgQ0UJ6ndDU0XTtZAjjRG7QrpR5uqUr3bZCfI9ZBNppwUxr2AE2F7ZAESjByeeNWIgHdktag4nPYXcoxQEON1lGaOs7n5Q6cZA65P00XtZBjHR5XC5yVXmFV06xhgQBne53hVuYi0WP7OzZAuPFuripaDPWBSzGAPGBiuPi ";
 $fbtoken = trim(fgets(STDIN));
 echo "Year : ";
 $year = trim(fgets(STDIN));
